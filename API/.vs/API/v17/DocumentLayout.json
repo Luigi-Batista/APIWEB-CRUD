@@ -1,41 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\",
+  "WorkspaceRootPath": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\migrations\\20240317215454_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\migrations\\20240317215454_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\data\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\data\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\migrations\\20240317215454_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\migrations\\20240317215454_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\data\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\data\\connectioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\onedrive - etec centro paula souza\\___pasta pessoal\\project csharp\\projeto by softline\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|c:\\users\\luigi\\desktop\\__projetos git\\apiweb-crud\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D2658EBA-87E7-41EF-8293-78850411BB2D}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -46,17 +58,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T21:05:33.728Z",
               "IsPinned": true,
@@ -64,107 +76,139 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-20T00:09:15.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-20T00:07:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "API.http",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.http",
+              "RelativeDocumentMoniker": "API\\API.http",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.http",
+              "RelativeToolTip": "API\\API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-03-19T19:25:57.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "API\\Controllers\\ClienteController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:00:31.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T22:00:31.875Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\ProdutoController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\ProdutoController.cs",
               "RelativeToolTip": "API\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T21:59:43.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:58:39.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "20240317215454_v1.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Migrations\\20240317215454_v1.cs",
-              "RelativeDocumentMoniker": "API\\Migrations\\20240317215454_v1.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Migrations\\20240317215454_v1.cs",
-              "RelativeToolTip": "API\\Migrations\\20240317215454_v1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:54:55.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:58:39.772Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "API\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Models\\Cliente.cs",
-              "RelativeToolTip": "API\\Models\\Cliente.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Title": "20240317215454_v1.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Migrations\\20240317215454_v1.cs",
+              "RelativeDocumentMoniker": "API\\Migrations\\20240317215454_v1.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Migrations\\20240317215454_v1.cs",
+              "RelativeToolTip": "API\\Migrations\\20240317215454_v1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:51:13.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:54:55.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "API\\Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Models\\Produto.cs",
-              "RelativeToolTip": "API\\Models\\Produto.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwBsAAAAgAAAA",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Models\\Cliente.cs",
+              "RelativeToolTip": "API\\Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T21:51:10.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T21:51:13.293Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\appsettings.json",
-              "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\appsettings.json",
-              "RelativeToolTip": "API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-17T20:39:09.038Z",
-              "EditorCaption": ""
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Models\\Produto.cs",
+              "RelativeToolTip": "API\\Models\\Produto.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwBsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T21:51:10.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-17T20:39:09.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ConnectionContext.cs",
-              "DocumentMoniker": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Data\\ConnectionContext.cs",
+              "DocumentMoniker": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Data\\ConnectionContext.cs",
               "RelativeDocumentMoniker": "API\\Data\\ConnectionContext.cs",
-              "ToolTip": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\Data\\ConnectionContext.cs",
+              "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Data\\ConnectionContext.cs",
               "RelativeToolTip": "API\\Data\\ConnectionContext.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAswA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:38:52.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T20:38:52.836Z"
             }
           ]
         }

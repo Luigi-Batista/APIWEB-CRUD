@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\API.csproj": {}
+    "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\API.csproj": {
+    "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Luigi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\obj\\",
+        "outputPath": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luigi\\AppData\\Roaming\\NuGet\\NuGet.Config",

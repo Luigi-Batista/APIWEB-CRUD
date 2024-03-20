@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xj8Z3WM0QDH1guWpBGBw/UmuyLoTbKW0N4mnit5OsUje6JtHbnVNIfG3LaRnzkOuUA5pzkixudd6vBo5KRNwQw==",
+  "dgSpecHash": "gmuZR5z917k3FUd7a5pOl6ImZ6Qrz4QdLiuXSSWtkBY8sWAYjD7pRXeGrkxgJzMZJNwpLY06V/D1FUGicv502Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Luigi\\OneDrive - Etec Centro Paula Souza\\___Pasta Pessoal\\Project Csharp\\Projeto by Softline\\API\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luigi\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Luigi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
