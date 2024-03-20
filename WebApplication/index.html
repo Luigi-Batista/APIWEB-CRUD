@@ -6,19 +6,29 @@
     <link rel="stylesheet" href="./sass/style-main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | Clientes</title>
 </head>
 <body>
 
     <!-- script JS & JQuery -->
-    <script type="module" src="https://code.jquery.com/jquery-3.7.1.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script type="module" src="./JS/main.js"></script>
-    <script>
+    <script type="text/javascript">
         $.ajax({
-            success: function(){
-                <h1>Teteste</h1>            
-            }
+            url: "https://localhost:7043/api/Produto",
+            type: "GET",
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function(response){
+              console.log(response[0])
+              response.forEach((produto)=>{
+                  $("#list-produtos").append(`<b>${produto.cod_pro}  - ${produto.descricao}</b>`)
+              })
+            },
+            erro: function(response){console.log("erro no estabelecimento com o banco")}
+          }).done(() =>{
         })
+        // Redirecionamento para página de "principal" do sistema
+        window.location.assign("./page/login.html")
     </script>
 </body>
 </html>

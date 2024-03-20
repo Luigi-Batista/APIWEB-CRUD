@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Style -->
+    <link rel="stylesheet" href="../sass/style-main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/loja-alt.png" type="image/x-icon">
+    <title>Login | Cliente</title>
+</head>
+<body>
+    <section class="container">
+        <form id="form">
+            <span id="msg">Bem-vindo</span>
+            <div class="input">
+                <input type="text" id="doc" placeholder=" ">
+                <label for="doc">Documento(RG)</label>
+            </div>
+            <button>Logar</button>
+        </form>
+    </section>
+</body>
+<script>
+    document.querySelector("#form").addEventListener("submit", (sub)=>{
+        sub.preventDefault();
+    })
+</script>
+</html>
