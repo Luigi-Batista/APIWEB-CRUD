@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "API\\Program.cs",
               "ToolTip": "C:\\Users\\Luigi\\Desktop\\__Projetos Git\\APIWEB-CRUD\\API\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAgAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T21:05:33.728Z",
               "IsPinned": true,
@@ -80,8 +80,7 @@
               "RelativeToolTip": "API\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAIAAAAAAAAAAABRwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-20T00:09:15.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T00:09:15.42Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-20T00:07:48.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T00:07:48.712Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "API\\API.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-03-19T19:25:57.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T19:25:57.661Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "API\\Controllers\\ClienteController.cs",
               "ViewState": "AQIAAEMAAAAAAAAAAAAkwE4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T22:00:31.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T22:00:31.875Z"
             },
             {
               "$type": "Document",
