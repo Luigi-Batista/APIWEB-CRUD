@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Style -->
+    <link rel="stylesheet" href="../sass/style-main/style-main.css">
+    <link rel="stylesheet" href="../sass/style-view/style-view.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/loja-alt.png" type="image/x-icon">
+    <title>Login | Cliente</title>
+</head>
+<body>
+    <section class="container">
+        <form id="form" class="menu-choice">
+            <span id="msg">Bem-vindo!</span>
+            <a href="./viewProdutos.html">
+                <button>Lista de Produtos</button>
+            </a>
+            <a href="./viewClientes.html">
+                <button>Lista de clientes</button>
+            </a>
+        </form>
+    </section>
+</body>
+<!-- JQuery + Plugin -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<script>
+    document.querySelector("#form").addEventListener("submit", (sub)=>{
+        sub.preventDefault();
+    })
+
+    document.querySelectorAll("#form button")[0].addEventListener("click", ()=>{
+        window.location.href = "./viewProdutos.html";
+    })
+    document.querySelectorAll("#form button")[1].addEventListener("click", ()=>{
+        window.location.href = "./viewClientes.html";
+    })
+</script>
+</html>

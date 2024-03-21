@@ -94,12 +94,11 @@
             }) ,
             success: function(response){
                 alert("Cliente Cadastrado com suscesso");
+                window.location.assign("./viewClientes.html")
             },
             error: function(){
                 alert("Erro ao enviar cliente")
             }
-        }).done(function(){
-            window.location.assign("./viewClientes.html")
         })
     }
     $(document).on("keydown",(keyboard)=>{

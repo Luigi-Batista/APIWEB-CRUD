@@ -1,6 +1,29 @@
 .container {
   overflow: hidden;
 }
+.container #path-menu {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  max-height: 15vh;
+  min-height: 15vh;
+}
+.container #path-menu .path {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.container #path-menu .path a#active li {
+  border-bottom: 2px solid rgba(40, 40, 40, 0.9294117647);
+}
+.container #path-menu .path li {
+  padding: 2px 0;
+  transition: 0.2s ease-out;
+}
+.container #path-menu .path li:hover {
+  border-bottom: 2px solid rgba(40, 40, 40, 0.9294117647);
+}
 
 .space-view {
   position: relative;
@@ -97,6 +120,11 @@
   font-size: 1.8rem;
   color: rgba(40, 40, 40, 0.9294117647);
   cursor: pointer;
+}
+
+#form.menu-choice {
+  padding-top: 5px !important;
+  flex-direction: row;
 }
 
 /* Para navegadores baseados em Webkit (Chrome, Safari, etc.) */

@@ -3,6 +3,39 @@ $font-color: #282828ed;
 
 .container{
     overflow: hidden;
+
+    #path-menu{
+        position: absolute;
+        top: 25px;
+        left: 15px;
+
+        max-height: 15vh;
+        min-height: 15vh;
+
+        .path{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 1rem;
+
+            a{
+                &#active{
+                    li{
+                        border-bottom: 2px solid $font-color;
+                    }
+                }
+            }
+
+            li{
+                padding: 2px 0;
+                transition: .2s ease-out;
+                &:hover{
+                    border-bottom: 2px solid $font-color;
+                }
+            }
+
+        }
+    }
 }
 
 .space-view{
@@ -126,8 +159,19 @@ $font-color: #282828ed;
             color: $font-color;
             cursor: pointer;
         }
+
+        
     }
 }
+
+#form{
+    &.menu-choice{
+        padding-top: 5px !important;
+        flex-direction: row;
+    }
+}
+
+
 
 
 /* Para navegadores baseados em Webkit (Chrome, Safari, etc.) */
