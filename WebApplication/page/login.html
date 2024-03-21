@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <!-- Style -->
-    <link rel="stylesheet" href="../sass/style-main.css">
+    <link rel="stylesheet" href="../sass/style-main/style-main.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/icons/loja-alt.png" type="image/x-icon">
@@ -11,18 +11,72 @@
 <body>
     <section class="container">
         <form id="form">
-            <span id="msg">Bem-vindo</span>
+            <span id="msg">Bem-vindo!</span>
             <div class="input">
-                <input type="text" id="doc" placeholder=" ">
-                <label for="doc">Documento(RG)</label>
+                <i id="icon-doc" class="fi fi-rs-circle-user icon-form" ></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="text" id="nome" placeholder="">
+                <label for="nome">Nome</label>
             </div>
-            <button>Logar</button>
+            <div class="input">
+                <i id="icon-doc" class="fi fi-rr-lock icon-form"></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="password" id="senha" placeholder="">
+                <label for="senha">Senha</label>
+                <i id="icon-pwd" class="fi fi-rs-crossed-eye icon-form"></i>
+            </div>
+            <button>confirmar</button>
         </form>
     </section>
 </body>
+<!-- JQuery + Plugin -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
 <script>
     document.querySelector("#form").addEventListener("submit", (sub)=>{
         sub.preventDefault();
+    })
+
+    $('#icon-pwd').on("click", (icon)=>{
+        if(icon.target.classList.contains("fi-rs-crossed-eye")){
+            icon.target.classList.replace("fi-rs-crossed-eye", "fi-rs-eye")
+            $("#senha").prop('type','text')
+        }else{
+            icon.target.classList.replace("fi-rs-eye","fi-rs-crossed-eye")
+            $("#senha").prop('type','password')
+        }
+    });
+
+
+    // Validação
+    $('button').on("click", ()=>{
+        $.ajax({
+            url: `https://localhost:7043/api/cliente/`,
+            type: "GET",
+            contentType: "application/json",
+            dataType: "json",
+            success: function(response){
+                let token = 0
+                response.forEach((cliente)=>{
+                    if((cliente.nome_cli == $('#nome').val()) && (cliente.senha == $('#senha').val())){
+                        token = 1
+                    }
+                })
+            },
+            error: function(){
+                alert("Erro ao receber cliente")
+            }
+        }).done(function(token){
+            if(token = 1){
+                window.location.href = './viewClientes.html'
+            }else{
+                alert('Usuário e senha incorretos ou inexistentes')
+            }
+        })
     })
 </script>
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Style -->
+    <link rel="stylesheet" href="../sass/style-main/style-main.css">
+    <link rel="stylesheet" href="../sass/style-forms/style-forms.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/loja-alt.png" type="image/x-icon">
+    <title>Cadastro | Produto</title>
+</head>
+<body>
+    <section class="container">
+        <form id="form">
+            <span id="msg">Cadastro de Produto</span>
+            <div class="input">
+                <i id="icon-doc" class="fi fi-rr-notebook icon-form" ></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="text" id="descricao" placeholder="">
+                <label for="descricao">Descrição</label>
+            </div>
+            <div class="input">
+                <i id="icon-doc" class="fi fi-rs-barcode-read icon-form"></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="text" id="cod_barra" placeholder="">
+                <label for="cod_barra">Código de barra</label>
+            </div>
+            <div class="input">
+                <i id="icon-doc" class="fi fi-rr-debt icon-form"></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="decimal" id="peso_liquido" placeholder="">
+                <label for="peso_liquido">Peso líquido</label>
+            </div>
+            <div class="input">
+                <i id="icon-doc" class="fi fi-rr-gym icon-form"></i>
+                <div id="splice">
+                    <span></span>
+                </div>
+                <input type="text" id="peso_bruto" placeholder="">
+                <label for="peso_bruto">Preso bruto</label>
+            </div>
+            <button>cadastrar</button>
+        </form>
+    </section>
+</body>
+<!-- JQuery + Plugin -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    document.querySelector("#form").addEventListener("submit", (sub)=>{
+        sub.preventDefault();
+    })
+    
+    //Envio de informações
+    function envi_data(){
+        $.ajax({
+            url: "https://localhost:7043/api/produto/",
+            type: "POST",
+            contentType: "application/json",
+            dataType: "json",
+            data:JSON.stringify({
+                "cod_pro": 0,
+                "descricao": $('#descricao').val(),
+                "cod_barra": $('#cod_barra').val(),
+                "peso_liquido": parseFloat($('#peso_liquido').val()),
+                "peso_bruto": parseFloat($('#peso_bruto').val())
+            }) ,
+            success: function(response){
+                alert("Cliente Cadastrado com suscesso");
+            },
+            error: function(e){
+                alert("Erro ao enviar cliente")
+                console.log(e)
+            }
+        }).done(function(){
+            window.location.assign("./viewProdutos.html")
+        })
+    }
+    $(document).on("keydown",(keyboard)=>{
+        if(keyboard.keyCode === 13){
+            //console.log(keyboard.keyCode)
+            envi_data()
+        }
+        
+    })
+
+    $('button').on("click",()=>{
+       envi_data()
+    })
+    
+
+    //Validação de campos com mascará por meio do plugin JQuery
+    $('#documento').mask('00.000.000/0000-00', {reverse: true})
+    $('#peso_liquido').mask('0000000000.00', {reverse: true})
+    $('#peso_bruto').mask('0000000000.00', {reverse: true})
+</script>
+</html>

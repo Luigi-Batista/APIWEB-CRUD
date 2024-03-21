@@ -12,6 +12,10 @@ namespace API.Models
         [StringLength(100, MinimumLength = 5)]
         public string nome_cli { get; set; }
 
+        [Required]
+        [StringLength(100, MinimumLength = 5)]
+        public string senha { get; set; }
+
         [StringLength(100, MinimumLength = 5)]
         public string fantasia { get; set; }
 
@@ -22,9 +26,10 @@ namespace API.Models
         public string endereco { get; set; }
 
 
-        public Cliente(string nome_cli, string fantasia, string documento, string endereco)
+        public Cliente(string nome_cli, string senha, string fantasia, string documento, string endereco)
         {
             this.nome_cli = nome_cli;
+            this.senha = senha;
             this.fantasia = fantasia;
             this.documento = documento;
             this.endereco = endereco;

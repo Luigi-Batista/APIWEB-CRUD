@@ -1,0 +1,144 @@
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-straight/css/uicons-regular-straight.css");
+@import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-decoration: none;
+  font-family: "Roboto Mono", monospace;
+  color: rgba(40, 40, 40, 0.9294117647);
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: white;
+}
+.container #form {
+  position: relative;
+  width: 60%;
+  height: 58%;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6rem !important;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 30px 8px rgba(220, 219, 219, 0.5882352941);
+  overflow: overlay;
+}
+.container #form #msg {
+  position: absolute;
+  top: 0;
+  font-family: "Sarabun", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.5rem;
+  padding: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #008dd4;
+}
+.container #form button {
+  padding: 0.3rem 1rem;
+  min-height: 2.5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: #008dd4;
+  border: 2px solid #008dd4;
+  color: white;
+  outline: none;
+  font-family: "Sarabun", sans-serif;
+  font-size: 1.3rem;
+  transition: 0.1s ease-in;
+}
+.container #form button:hover {
+  cursor: pointer;
+  color: rgba(40, 40, 40, 0.9294117647);
+  background-color: white;
+}
+.container #form .input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+.container #form .input label {
+  position: absolute;
+  top: 0;
+  left: 14%;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.container #form .input .icon-form {
+  font-size: 1.3rem;
+  color: rgba(40, 40, 40, 0.9294117647);
+  padding: 2px 3px;
+  border: none;
+  border-bottom: 2px solid;
+  border-color: rgba(40, 40, 40, 0.8980392157);
+}
+.container #form .input #icon-pwd {
+  position: absolute;
+  right: 0;
+  border: none;
+  cursor: pointer;
+  padding: 1px 4px;
+  background-color: white;
+}
+.container #form .input #splice {
+  position: relative;
+  width: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 2px 0;
+  border: none;
+  border-bottom: 2px solid;
+}
+.container #form .input #splice span {
+  width: 2px;
+  height: 10px;
+  background-color: rgba(40, 40, 40, 0.8980392157);
+  opacity: 0.4;
+  border-radius: 0.5rem;
+}
+.container #form .input input[type=text], .container #form .input input[type=number], .container #form .input input[type=password], .container #form .input input[type=decimal] {
+  padding: 2px 7px;
+  padding-right: 1.8rem;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(40, 40, 40, 0.8980392157);
+  cursor: pointer;
+  transition: 0.15s;
+}
+.container #form .input input[type=text]:not(:-moz-placeholder-shown) + label, .container #form .input input[type=number]:not(:-moz-placeholder-shown) + label, .container #form .input input[type=password]:not(:-moz-placeholder-shown) + label, .container #form .input input[type=decimal]:not(:-moz-placeholder-shown) + label {
+  transform: translateY(-30px);
+  left: 0;
+}
+.container #form .input input[type=text]:focus + label, .container #form .input input[type=text]:not(:placeholder-shown) + label, .container #form .input input[type=number]:focus + label, .container #form .input input[type=number]:not(:placeholder-shown) + label, .container #form .input input[type=password]:focus + label, .container #form .input input[type=password]:not(:placeholder-shown) + label, .container #form .input input[type=decimal]:focus + label, .container #form .input input[type=decimal]:not(:placeholder-shown) + label {
+  transform: translateY(-30px);
+  left: 0;
+}/*# sourceMappingURL=style-main.css.map */

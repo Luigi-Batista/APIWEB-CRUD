@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Style -->
+    <link rel="stylesheet" href="../sass/style-main/style-main.css">
+    <link rel="stylesheet" href="../sass/style-forms/style-forms.css">
+    <link rel="stylesheet" href="../sass/style-view/style-view.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/icons/loja-alt.png" type="image/x-icon">
+    <title>Lista | Produtos</title>
+</head>
+<body>
+    <section class="container">
+        <div class="space-view">
+            <!-- Cabeçalho de controle/organização -->
+            <div class="header-menu">
+                <h2>Lista de Produtos</h2>
+                <span id="new-add">
+                    <i class="fi fi-rr-shopping-cart-add"></i>
+                </span>
+            </div>
+
+            <!-- Esapoço para visualização dos registro -->
+            <div class="space-view">
+                
+            </div>
+        </div>
+
+        <!-- Formulário para alteração de tabelas -->
+        <div id="update" class="container modal">
+            <form id="form">
+                <span id="msg">Alteração de Cliente</span>
+                <i id="close" class="fi fi-rr-rectangle-xmark"></i>
+                <input id="hide-id" type="hidden">
+                <div class="input">
+                    <i id="icon-doc" class="fi fi-rr-notebook icon-form" ></i>
+                    <div id="splice">
+                        <span></span>
+                    </div>
+                    <input type="text" id="descri" placeholder="">
+                    <label for="descri">Descrição</label>
+                </div>
+                <div class="input">
+                    <i id="icon-doc" class="fi fi-rs-barcode-read icon-form"></i>
+                    <div id="splice">
+                        <span></span>
+                    </div>
+                    <input type="text" id="barra" placeholder="">
+                    <label for="barra">Código de barra</label>
+                </div>
+                <div class="input">
+                    <i id="icon-doc" class="fi fi-rr-debt icon-form"></i>
+                    <div id="splice">
+                        <span></span>
+                    </div>
+                    <input type="text" id="Pliquido" placeholder="">
+                    <label for="Pliquido">Peso líquido</label>
+                </div>
+                <div class="input">
+                    <i id="icon-doc" class="fi fi-rr-gym icon-form"></i>
+                    <div id="splice">
+                        <span></span>
+                    </div>
+                    <input type="text" id="Pbruto" placeholder="">
+                    <label for="Pbruto">Preso bruto</label>
+                </div>
+                <button>cadastrar</button>
+            </form>
+        </div>
+        <div class="container modal" style="display: none;">
+            <div class="context-button">
+                
+            </div>
+        </div>
+
+    </section>
+</body>
+<!-- JQuery + Plugin -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    document.querySelector("#form").addEventListener("submit", (sub)=>{
+        sub.preventDefault();
+    })
+
+    $.ajax({
+        url: "https://localhost:7043/api/produto/",
+        type: "GET",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(response){
+          response.forEach((produtos)=>{
+              $(".space-view").append(
+                `
+                <div class="card-view">
+                    <i id="icon-user" class="fi fi-rr-shopping-cart icon-form" ></i>
+
+                    <!-- informações do bacno -->
+                    <input type="hidden" name="cod_cli" id="cod_cli" value="${produtos.cod_cli}">
+
+                    <span id="descricao">Descrição:<br>${produtos.descricao}</span>
+                    <span id="cod_barra">Código de Barra:<br>${produtos.cod_barra}</span>
+                    <span id="peso_liquido">Peso líquido:<br>${produtos.peso_liquido}</span>
+                    <span id="peso_bruto">peso_bruto:<br>${produtos.peso_bruto}</span>
+
+                    <div class="menu-context">
+                        <i id="icon-update" class="fi fi-rr-file-edit" data-id="${produtos.cod_pro}"></i>
+                        <i id="icon-del" class="fi fi-rr-trash"data-delid="${produtos.cod_pro}"></i>
+                    </div>
+                </div>
+                `
+                )
+            })
+        },
+        erro: function(response){console.log("erro no estabelecimento com o banco")}
+      })
+
+    $('#icon-pwd').on("click", (icon)=>{
+        if(icon.target.classList.contains("fi-rs-crossed-eye")){
+            icon.target.classList.replace("fi-rs-crossed-eye", "fi-rs-eye")
+            $("#senha").prop('type','text')
+        }else{
+            icon.target.classList.replace("fi-rs-eye","fi-rs-crossed-eye")
+            $("#senha").prop('type','password')
+        }
+    });   
+    
+    //Eventos de click
+    $('#close').on('click',()=>{
+        document.querySelector('#update').style.display = "none"
+    })
+    $.ajax()
+    
+    //Capturando informações para o modal
+    window.addEventListener("load", ()=>{
+        document.querySelectorAll("#icon-update").forEach((item)=>{
+            item.addEventListener("click", ()=>{
+                document.querySelector('#update').style.display = "flex"
+                $.ajax({
+                    url: `https://localhost:7043/api/produto/${item.dataset.id}`,
+                    type: "GET",
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function(response){
+                        $('#hide-id').val(response.cod_pro)
+                        $('#descri').val(response.descricao)
+                        $('#barra').val(response.cod_barra)
+                        $('#Pliquido').val(response.peso_liquido)
+                        $('#Pbruto').val(response.peso_bruto)
+                    },
+                    error: function(){
+                        alert("Erro ao receber cliente")
+                    }
+                })
+            })
+        })
+    } )
+
+    //Envio de novas informações
+    function update_data(){
+        $.ajax({
+            url: `https://localhost:7043/api/produto/${$('#hide-id').val()}`,
+            type: "PUT",
+            contentType: "application/json",
+            dataType: "json",
+            data:JSON.stringify({
+                "cod_pro": $('#hide-id').val(),
+                "descricao": $('#descri').val(),
+                "cod_barra": $('#barra').val(),
+                "peso_liquido": parseFloat($('#Pliquido').val()),
+                "peso_bruto": parseFloat($('#Pbruto').val())
+            }) ,
+            success: function(response){
+            },
+            error: function(e){
+                alert("Erro ao atualziar produto")
+                console.log(e)
+            }
+        }).done(function(){
+            document.querySelector('#update').style.display = "none"
+            window.location.reload()
+        })
+    }
+    $(document).on("keydown",(keyboard)=>{
+        if(keyboard.keyCode === 13){
+            //console.log(keyboard.keyCode)
+            update_data()
+        }
+        
+    })
+    $('button').on("click",()=>{
+       update_data()
+    })
+
+    //Exclusão de registro
+    window.addEventListener("load", ()=>{
+        document.querySelectorAll("#icon-del").forEach((item)=>{
+            item.addEventListener("click", ()=>{
+                $.ajax({
+                    url: `https://localhost:7043/api/produto/${item.dataset.delid}`,
+                    type: "DELETE",
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function(response){
+                        alert("Produto excluido com sucesso!")
+                        window.location.reload()
+                    },
+                    error: function(){
+                        alert("Erro ao deletar produto")
+                    }
+                })
+            })
+        })
+    } )
+
+
+    
+
+
+    //Validação de campos com mascará por meio do plugin JQuery
+    $('#Pliquido').mask('0000000000.00', {reverse: true})
+    $('#Pbruto').mask('0000000000.00', {reverse: true})
+        
+</script>
+</html>

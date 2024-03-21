@@ -1,0 +1,190 @@
+// Fonte de Icones
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-regular-straight/css/uicons-regular-straight.css');
+
+// Fontes escritas
+// Sarabun
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+// Roboto Monospace
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+// Paleta de cores
+$bg-color: white;
+$boxShadow-color: #dcdbdb96;
+$font-color: #282828ed;
+$color-border: #282828e5;
+$color-alert: #fe7364c9;
+$bg-button: #008dd4;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-decoration: none;
+
+    font-family: "Roboto Mono", monospace;
+    color: $font-color;
+}
+
+.container{
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    
+    
+    background-color: $bg-color;
+
+    #form{
+        position: relative;
+        width: 60%;
+        height: 58%;
+        max-height:500px;
+
+        
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+        align-items: center;
+        justify-content: center;
+        
+        padding-top: 6rem !important;
+        padding: 1rem 2rem;
+
+        border-radius: 10px;
+        background-color: $bg-color;
+        box-shadow: 0 0 30px 8px $boxShadow-color;
+
+        overflow: overlay;
+
+        #msg{
+            position: absolute;
+            top: 0;
+
+            font-family: "Sarabun", sans-serif;
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: $bg-color;
+            letter-spacing: .5rem;
+
+            padding: 10px;
+            border-radius: 15px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+
+            background-color: $bg-button;
+        }
+        button{
+            padding: .3rem 1rem;
+            min-height: 2.5rem;
+            border-radius: 10px;
+            text-transform: uppercase;
+
+            background-color: $bg-button;
+            border: 2px solid $bg-button;
+            color: white;
+            outline: none;
+            font-family: "Sarabun", sans-serif;
+            font-size: 1.3rem;
+
+            transition: .1s ease-in;
+
+            &:hover{
+                cursor: pointer;
+                color: $font-color;
+                background-color: white;
+            }
+        }
+
+        .input{
+            position: relative;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            overflow: visible;
+
+            
+            
+            label{
+                position: absolute;
+                top: 0;
+                left: 14%;
+
+                font-size: 1.3rem;
+                cursor: pointer;
+                transition: .2s ease-out;
+                
+            }
+
+            .icon-form{
+                font-size: 1.3rem;
+                color: $font-color;
+                padding: 2px 3px;
+                border: none;
+                border-bottom: 2px solid;
+                border-color: $color-border;
+            }
+            #icon-pwd{
+                position: absolute;
+                right: 0;
+                border: none;
+                cursor: pointer;
+
+                padding: 1px 4px;
+                background-color: $bg-color;
+            }
+
+            #splice{
+                position: relative;
+                width: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                padding: 2px 0;
+                border: none;
+                border-bottom: 2px solid;
+                
+                span{
+                    width: 2px;
+                    height: 10px;
+                    background-color: $color-border;
+                    opacity: .4;
+                    border-radius: .5rem;
+                }
+            }
+
+            input[type="text"],input[type="number"],input[type="password"], input[type="decimal"]{
+                padding: 2px 7px;
+                padding-right: 1.8rem;
+
+                font-size: 1.3rem;
+                outline: none;
+                border: none;
+                border-bottom: 2px solid $color-border;
+
+                cursor: pointer;
+                transition: .15s;
+
+                &:focus + label,  &:not(:placeholder-shown) + label{
+                    transform: translateY(-30px);
+                    left: 0;
+                }
+            }
+        }
+    }   
+}
